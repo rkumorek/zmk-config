@@ -48,8 +48,8 @@
 &kp TAB    &kp Q   &kp W        &kp E     &kp R     &kp T       &kp Y      &kp U       &kp I      &kp O     &kp P     &kp EQUAL
 &kp BSLH   &kp A   &kp S        &kp D     &kp F     &kp G       &kp H      &kp J       &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X        &kp C     &kp V     &kp B       &kp N      &kp M       &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                   &caps_word   &kp BSPC  &LA_GUI   &kp LCTRL   &kp RCTRL  &RA_LOW     &kp LBKT   &kp RBKT
-                                                    &kp SPACE   &kp RET
+                   &caps_word   &kp LCTRL &kp LGUI  &kp SPACE   &kp BSPC   &RA_LOW     &kp LBKT   &kp RBKT
+                                                    &kp ESC     &kp RET
             >;
         };
 
@@ -65,8 +65,8 @@
  *  └──────┴──────┼──────┼──────┼──────┼──────┤                    ├──────┼──────┼──────┼──────┼──────┴──────┘
  *                │      │      │      │      │                    │      │      │ ESC  │      │
  *                └──────┴──────┴──────┴────┬─┴────┐          ┌────┴─┬────┴──────┴──────┴──────┘
- *                                          │L_SYS │          │      │                     
- *                                          └──────┘          └─────┘                     
+ *                                          │L_SYS │          │      │
+ *                                          └──────┘          └─────┘
  */
         lower_layer {
             bindings = <
@@ -74,7 +74,7 @@
 &kp C_VOL_UP &kp C_NEXT &kp C_BRI_UP &kp INS &kp PG_UP &kp HOME       &none    &none    &none   &none     &none    &kp CAPS
 &kp C_VOL_DN &kp C_PREV &kp C_BRI_DN &kp DEL &kp PG_DN &kp END        &kp LEFT &kp DOWN &kp UP  &kp RIGHT &none    &kp SLCK
 &kp C_MUTE   &kp C_PP   &none        &none   &none     &none          &none    &none    &none   &none     &none    &kp K_APP
-                        &none        &none   &none     &none          &none    &none    &kp ESC &none     
+                        &none        &none   &none     &none          &none    &none    &kp ESC &none
                                                        &mo L_SYS      &none
              >;
         };
@@ -91,8 +91,8 @@
  *  └──────┴──────┼──────┼──────┼──────┼──────┤                    ├──────┼──────┼──────┼──────┼──────┴──────┘
  *                │      │      │      │      │                    │      │      │      │      │
  *                ┴──────┴──────┴──────┴────┬─┴────┐          ┌────┴─┬────┴──────┴──────┴──────┘
- *                                          │      │          │      │                     
- *                                          └──────┘          └──────┘                     
+ *                                          │      │          │      │
+ *                                          └──────┘          └──────┘
  */
         system_layer {
             bindings = <
